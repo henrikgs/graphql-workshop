@@ -10,7 +10,7 @@ export default {
         "small": "http://lorempixel.com/400/200/people/",
         "large": "http://lorempixel.com/800/400/people/"
       },
-      "bestFriend": 3,
+      "bestFriends": [1],
       "car": 0
     },
     {
@@ -23,7 +23,7 @@ export default {
         "small": "http://lorempixel.com/400/200/people/",
         "large": "http://lorempixel.com/800/400/people/"
       },
-      "bestFriend": 2,
+      "bestFriends": [0, 2],
       "car": 1
     },
     {
@@ -36,7 +36,7 @@ export default {
         "small": "http://lorempixel.com/400/200/people/",
         "large": "http://lorempixel.com/800/400/people/"
       },
-      "bestFriend": -1,
+      "bestFriends": [0],
       "car": 3
     },
     {
@@ -49,7 +49,7 @@ export default {
         "small": "http://lorempixel.com/400/200/people/",
         "large": "http://lorempixel.com/800/400/people/"
       },
-      "bestFriend": -1,
+      "bestFriends": [],
       "car": 0
     },
     {
@@ -62,7 +62,7 @@ export default {
         "small": "http://lorempixel.com/400/200/people/",
         "large": "http://lorempixel.com/800/400/people/"
       },
-      "bestFriend": 2,
+      "bestFriends": [0, 1, 2, 3],
       "car": 2
     }
   ],
